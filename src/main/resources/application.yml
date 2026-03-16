@@ -8,7 +8,7 @@ spring:
     config:
       server:
         git:
-          uri: file:///e:/Cursor%20Projects/ECA-Final-Project/Library-Management-Project-Configurations
+          uri: https://github.com/DilsaraThiranjaya/Library-Management-Project-Configurations.git
           default-label: main
           search-paths: '{application}'
           clone-on-start: true
