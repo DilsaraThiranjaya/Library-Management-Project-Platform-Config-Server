@@ -9,9 +9,12 @@ spring:
       server:
         git:
           uri: https://github.com/DilsaraThiranjaya/Library-Management-Project-Configurations.git
-          default-label: main
           search-paths: 'platform,services'
-          clone-on-start: true
+        native:
+          search-locations:
+            - classpath:/configurations
+            - classpath:/configurations/platform
+            - classpath:/configurations/services
 
 eureka:
   client:
